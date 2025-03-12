@@ -10,13 +10,17 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 1. Install dependencies
 
    ```bash
-   npm install
+   - npm install --global eas-cli  
+   - npx create-expo-app gerador 
+   - cd gerador 
+   - eas init --id 8616338d-34f5-4f40-9892-3e8bb2cfe374
    ```
 
 2. Start the app
 
    ```bash
-    npx expo start
+   - npm install --global eas-cli 
+   - eas init --id 8616338d-34f5-4f40-9892-3e8bb2cfe374
    ```
 
 In the output, you'll find options to open the app in a
